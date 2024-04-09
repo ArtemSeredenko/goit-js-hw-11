@@ -8,7 +8,7 @@ function getData(str) {
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: true,
-    per_page: 30,
+    per_page: 32,
   });
 
   return fetch(`${BASE_URL}?${parameters}`).then(response => {
